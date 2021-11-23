@@ -20,16 +20,14 @@
 <@crafter.div class="youtube-plugin-container">
   <#assign youtubeItemSet = contentModel.youtubeID_s?has_content />
   <#if youtubeItemSet>
-    <@crafter.eventCaptureOverlay>
-      <iframe
-        width="${contentModel.width_s}"
-        height="${contentModel.height_s}"
-        src="https://www.youtube.com/embed/${contentModel.youtubeID_s}"
-        style="border: none"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </@crafter.eventCaptureOverlay>
+    <@crafter.iframe
+      $model=""
+      width="${contentModel.width_s}"
+      height="${contentModel.height_s}"
+      src="https://www.youtube.com/embed/${contentModel.youtubeID_s}"
+      style="border: none"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+    />
   <#elseif modePreview>
     <div
       class="youtube-no-video-selected"
