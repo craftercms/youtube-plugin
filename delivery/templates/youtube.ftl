@@ -5,12 +5,12 @@
   .youtube-no-video-selected {
     display: none;
   }
-  .craftercms-ice-on .crafter-youtube-no-items {
+  .craftercms-ice-on .youtube-no-video-selected {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #808080;
-    color: #fff;
+    background: #f2f2f2;
+    color: #000;
     font-weight: bold;
   }
 </style>
