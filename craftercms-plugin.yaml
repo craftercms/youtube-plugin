@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 5
+    patch: 6
   description: A plugin to search for and add YouTube videos to a site
   documentation: "https://raw.githubusercontent.com/craftercms/youtube-plugin/master/README.md"
   website:
@@ -45,6 +45,7 @@ plugin:
     - enterprise
   installation:
     - type: form-control
+      elementXpath: //control[plugin/pluginId='org.craftercms.plugin.youtube']
       element:
         name: control
         children:
