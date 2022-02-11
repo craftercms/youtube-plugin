@@ -1,4 +1,4 @@
-# This file describes a plugin for use in Crafter CMS
+# This file describes a plugin for use in CrafterCMS
 
 # The version of the format for this file
 descriptorVersion: 2
@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 6
+    patch: 7
   description: A plugin to search for and add YouTube videos to a site
   documentation: "https://raw.githubusercontent.com/craftercms/youtube-plugin/master/README.md"
   website:
@@ -22,17 +22,14 @@ plugin:
     url: https://github.com/craftercms/youtube-plugin
   media:
     screenshots:
-      - title: Crafter CMS
-        description: Crafter CMS Plugin YouTube
+      - title: CrafterCMS
+        description: CrafterCMS Plugin YouTube
         url: "https://raw.githubusercontent.com/craftercms/youtube-plugin/master/.crafter/logo.svg"
   developer:
     company:
       name: Crafter Software
       email: info@craftersoftware.com
       url: https://craftersoftware.com
-  build:
-    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c9
-    date: 2021-08-04T00:00:00Z
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT

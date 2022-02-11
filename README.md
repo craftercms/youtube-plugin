@@ -1,4 +1,4 @@
-# YouTube Plugin for Crafter CMS
+# YouTube Plugin for CrafterCMS
 
 Add YouTube videos to your site.
 
