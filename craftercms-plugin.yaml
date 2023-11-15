@@ -14,7 +14,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 14
+    patch: 15
   description: A plugin to add YouTube videos to a site
   documentation: "https://raw.githubusercontent.com/craftercms/youtube-plugin/master/README.md"
   website:
@@ -55,6 +55,18 @@ plugin:
     - major: 4
       minor: 0
       patch: 6
+    - major: 4
+      minor: 0
+      patch: 7
+    - major: 4
+      minor: 0
+      patch: 8
+    - major: 4
+      minor: 0
+      patch: 9
+    - major: 4
+      minor: 0
+      patch: 10
     - major: 4
       minor: 1
       patch: 0
